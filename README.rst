@@ -20,11 +20,11 @@ Usage:
  Here is an example of how you can checkout for a valid IPv4 address using regular expressions
  in this example, i'm going to be using the built-in re module in python
  
- def isValid(ip):
-      if findall( "(?i)^(\d|\d\d|1[0-9][0-9]|2[0-9][0-5]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5])$" ,ip):
-		        return True
-	    else:
-		        return False
+ >>> def isValid(ip):
+ >>> 	if findall( "(?i)^(\d|\d\d|1[0-9][0-9]|2[0-9][0-5]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5]).(\d|\d\d|1[0-9][0-9]|2[0-9][0-5])$" ,ip):
+ >>> 		return True
+ >>>	else:
+ >>> 		return False
  
 
  
