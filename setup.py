@@ -1,5 +1,5 @@
-import distutils
-distutils.setup(
+from distutils.core import setup
+setup(
 	name="IPChecker",
 	version="1.0",
 	author = "Boumediene Kaddour",
@@ -8,6 +8,6 @@ distutils.setup(
 	scripts=[],
 	url='http://pypi.python.org/pypi/IPchecker',
 	license="LICENSE.txt",
-	description="Check if IP is Private, Public or INVALID";
+	description="Check if IP is Private, Public or Invalid"
 	long_description=open('README.rst').read(),
 	install_requires=[],)
