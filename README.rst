@@ -10,7 +10,7 @@ The library returns Booleans and contains a couple of methods summurized as foll
 Usage:
  >>> from IPChecker import IPChecker
  >>> obj = IPChecker("172.16.122.254")
- >>> obj.isValide()
+ >>> obj.isValid()
  >>> True
  >>> obj.isPrivate()
  >>> True
